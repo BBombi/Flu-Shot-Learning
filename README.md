@@ -110,3 +110,7 @@ household_adults - Number of other adults in household, top-coded to 3.
 Performance will be evaluated according to the area under the receiver operating characteristic curve (ROC AUC) for each of the two target variables. The mean of these two scores will be the overall score. A higher value indicates stronger performance.
 
 In Python, you can calculate this using `sklearn.metrics.roc_auc_score` for this multilabel setup with the default `average="macro"` parameter.
+
+# Best result so far:
+I've done a few submissions (6 in total) with different approaches so far.
+The best score thatb I've got has been 0,8542 (December 5th, 2024) with CatBoost.
